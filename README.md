@@ -1,4 +1,5 @@
 📊 Number Range Summarizer
+
 This project provides a utility to summarize a list of integers into ranges. The input is a comma-separated string, and the output is a summarized string where consecutive numbers are grouped into ranges (e.g., 1, 3, 6-8, 12-15, 21-24).
 
 🧠 Project Components
