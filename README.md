@@ -7,9 +7,9 @@ This project provides a utility to summarize a list of integers into ranges. The
 The Main.java file initializes the summarization process by passing a hardcoded comma-delimited string of integers and printing the summarized output.
 
 2. CommaDelimitedNumbers Class
-The CommaDelimitedNumbers.java file implements the NumberRangeSummarizer interface:
+  - The CommaDelimitedNumbers.java file implements the NumberRangeSummarizer interface:
 
-collect(String input): Parses the comma-separated input string into a Set<Integer>.
+- collect(String input): Parses the comma-separated input string into a Set<Integer>.
 
 summarizeCollection(Set<Integer> input): Summarizes the collection of integers, grouping consecutive numbers into ranges.
 
