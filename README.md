@@ -22,3 +22,17 @@ The Main.java file initializes the summarization process by passing a hardcoded 
 - Tests for collecting numbers from a string.
 
 - Tests for summarizing collections, including handling edge cases like empty or single-number collections.
+
+🔧 Key Functions
+- Collecting numbers: Parses a comma-separated string into a set of integers.
+
+- Summarizing collections: Groups consecutive numbers into ranges (e.g., 6-8 for 6, 7, 8).
+
+🧪 Testing
+Several JUnit tests ensure the accuracy of the summarization process:
+
+1. Test for input: Validates input collection from a string.
+
+2. Test for summarization: Verifies the correct summarization of integer collections into ranges.
+
+3. Edge cases: Tests handle empty collections, single numbers, and non-consecutive numbers correctly.
